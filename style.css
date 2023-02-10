@@ -171,6 +171,7 @@ html, body {
     width: 80px;
     height: 60px;
     top: 30px;
+    left:0;
     border-radius: 50%;
     box-shadow: 0 5px 0 10px  rgb(226, 124, 76) inset;
 }
@@ -179,7 +180,7 @@ html, body {
     width: 80px;
     height: 60px;
     top: 30px;
-    right: 1px;
+    right: 0;
     border-radius: 50%;
     box-shadow: 0 5px 0 10px  rgb(226, 124, 76) inset;
 }
