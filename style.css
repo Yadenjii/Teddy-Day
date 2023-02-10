@@ -10,8 +10,9 @@ html, body {
     overflow: hidden;
   }
   h1{
+    
     color:#fff;
-    padding-bottom: 20px;
+    padding-bottom: 50px;
     animation: glow 1s ease-in-out infinite alternate;
   }
   .teddy{
@@ -19,7 +20,8 @@ html, body {
     width: 260px;
     height: 330px;
     border: none;
-    background: #122139
+    background-color: inherit;
+    outline:none;
     
   }
   .teddy div{
@@ -69,6 +71,7 @@ html, body {
     top:65px;
     right: 45px;
     box-shadow: 2px -2px 0 6px inset; 
+    animation: eye 4s ease-in-out infinite;
 
 }
 .mouth-area{
@@ -216,8 +219,6 @@ html, body {
       text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
     }
   }
-
-
-
+  
 
 
